@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+:root{
+    --background:#000000;
+    --forcolor:#ffffff;
+    --back:#1D1816;
+}
+body{
+    background-color:var(--background);
+    color:var(--forcolor);
+}
+.Fromvalidation
+{
+    width: 100%;
+    height: 100vh;
+    margin-top: 1.5rem;
+    
+}
+form{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    background-color: var(--back);
+    border: 1px solid var(--back);
+    border-radius: 25px;
+    padding-top: 1rem;
+    
+   /* margin-bottom: 1.5rem;
+*/
+   
+}
+.second_form
+{
+    margin-bottom: 0.5rem;
+   
+}
+.btn-sub
+{
+ 
+    color: var(--forcolor);
+    background-image: linear-gradient(to right, red, pink);
+    border: none;
+}
